@@ -78,8 +78,8 @@ document.addEventListener('DOMContentLoaded', () => {
         overlay.innerHTML = `
             <div class="custom-alert-box">
                 <div class="success-icon"><i class="fa-solid fa-check"></i></div>
-                <h3 class="alert-title">Gửi Yêu Cầu Thành Công!</h3>
-                <p class="alert-desc">Cảm ơn bạn đã tin tưởng dịch vụ.<br>Vui lòng nhấn nút bên dưới để gửi tin nhắn xác nhận qua Zalo cho Admin nhé!</p>
+                <h3 class="alert-title">Đã Xác Thực!</h3>
+                <p class="alert-desc">Cảm ơn bạn đã tin tưởng dịch vụ.<br>Vui lòng nhấn nút bên dưới để gửi tin nhắn xác nhận số xu qua Zalo cho Admin nhé!</p>
                 <a href="${zaloLink}" target="_blank" class="btn-zalo-now" id="btnRealZalo">
                     <i class="fa-solid fa-paper-plane"></i> MỞ ZALO NGAY
                 </a>
